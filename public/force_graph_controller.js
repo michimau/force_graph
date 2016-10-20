@@ -68,7 +68,7 @@ module.controller('force_graph_controller', function($scope, Private) {
             }]
         };
 
-        /* 
+         
          //if you want to use elasticsearch data you can get the data 
          // as below. you have to convert the data to required format
          var dataId = $scope.vis.aggs.bySchemaName['force_data'][0].id;
@@ -79,7 +79,7 @@ module.controller('force_graph_controller', function($scope, Private) {
            var value = metricsAgg.getValue(bucket); // count   
          
          });
-        */
+        
 
         force
             .nodes(graph.nodes)
