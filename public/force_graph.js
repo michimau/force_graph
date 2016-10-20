@@ -33,7 +33,8 @@ function ForceGraphProvider(Private) {
             group: 'buckets',
             name: 'force_data',
             title: 'DateField',
-            aggFilter: 'date_histogram'
+            aggFilter: '!geohash_grid'
+            //aggFilter: 'date_histogram'
         }])
     });
 }
