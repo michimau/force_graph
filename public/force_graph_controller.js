@@ -1,4 +1,5 @@
-re('ui/modules').get('force_graph');
+ // Create an Angular module for this plugin
+var module = require('ui/modules').get('force_graph');
 
 module.controller('force_graph_controller', function($scope, Private) {
 
